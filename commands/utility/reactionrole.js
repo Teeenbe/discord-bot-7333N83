@@ -6,7 +6,7 @@ const {
 } = require("../../models/reaction-message/queries.js");
 
 module.exports = {
-  name: "rmsg",
+  name: "reactionrole",
   description: "Create a reaction-role message.",
   async execute(msg, args) {
     /* Data about message that will be stored in the database entry. */
